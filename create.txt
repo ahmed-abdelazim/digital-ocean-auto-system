@@ -1,0 +1,166 @@
+DigitalOceanV2\Entity\Droplet Object
+(
+    [id] => 158770021
+    [name] => the-name
+    [memory] => 512
+    [vcpus] => 1
+    [disk] => 20
+    [region] => DigitalOceanV2\Entity\Region Object
+        (
+            [slug] => nyc1
+            [name] => New York 1
+            [available] => 1
+            [sizes] => Array
+                (
+                    [0] => c-16
+                    [1] => c-2
+                    [2] => c-4
+                    [3] => c-8
+                    [4] => m-1vcpu-8gb
+                    [5] => m-16gb
+                    [6] => m-32gb
+                    [7] => m-64gb
+                    [8] => m-128gb
+                    [9] => m-224gb
+                    [10] => 512mb
+                    [11] => 1gb
+                    [12] => 2gb
+                    [13] => 4gb
+                    [14] => 8gb
+                    [15] => 16gb
+                    [16] => 32gb
+                    [17] => 48gb
+                    [18] => 64gb
+                    [19] => s-1vcpu-1gb
+                    [20] => s-3vcpu-1gb
+                    [21] => s-1vcpu-2gb
+                    [22] => s-2vcpu-2gb
+                    [23] => s-1vcpu-3gb
+                    [24] => s-2vcpu-4gb
+                    [25] => s-4vcpu-8gb
+                    [26] => s-6vcpu-16gb
+                    [27] => s-8vcpu-32gb
+                    [28] => s-12vcpu-48gb
+                    [29] => s-16vcpu-64gb
+                    [30] => s-20vcpu-96gb
+                    [31] => s-24vcpu-128gb
+                    [32] => s-32vcpu-192gb
+                    [33] => g-4vcpu-16gb
+                    [34] => g-8vcpu-32gb
+                    [35] => g-16vcpu-64gb
+                    [36] => g-2vcpu-8gb
+                    [37] => c-32
+                    [38] => g-32vcpu-128gb
+                )
+
+            [features] => Array
+                (
+                    [0] => private_networking
+                    [1] => backups
+                    [2] => ipv6
+                    [3] => metadata
+                    [4] => install_agent
+                    [5] => storage
+                    [6] => image_transfer
+                )
+
+        )
+
+    [image] => DigitalOceanV2\Entity\Image Object
+        (
+            [id] => 51867651
+            [name] => 14.04.5 x64
+            [type] => snapshot
+            [distribution] => Ubuntu
+            [slug] => ubuntu-14-04-x64
+            [minDiskSize] => 20
+            [sizeGigabytes] => 2.36
+            [createdAt] => 2019-09-06T01:39:20Z
+            [public] => 1
+            [regions] => Array
+                (
+                    [0] => nyc1
+                    [1] => sfo1
+                    [2] => nyc2
+                    [3] => ams2
+                    [4] => sgp1
+                    [5] => lon1
+                    [6] => nyc3
+                    [7] => ams3
+                    [8] => fra1
+                    [9] => tor1
+                    [10] => sfo2
+                    [11] => blr1
+                )
+
+        )
+
+    [kernel] => 
+    [size] => DigitalOceanV2\Entity\Size Object
+        (
+            [slug] => 512mb
+            [available] => 1
+            [memory] => 512
+            [vcpus] => 1
+            [disk] => 20
+            [transfer] => 1
+            [priceMonthly] => 5
+            [priceHourly] => 0.00744
+            [regions] => Array
+                (
+                    [0] => ams2
+                    [1] => ams3
+                    [2] => blr1
+                    [3] => fra1
+                    [4] => lon1
+                    [5] => nyc1
+                    [6] => nyc2
+                    [7] => nyc3
+                    [8] => sfo1
+                    [9] => sfo2
+                    [10] => sgp1
+                    [11] => tor1
+                )
+
+        )
+
+    [sizeSlug] => 512mb
+    [locked] => 1
+    [createdAt] => 2019-09-13T17:06:53Z
+    [status] => new
+    [tags] => Array
+        (
+        )
+
+    [networks] => Array
+        (
+        )
+
+    [backupIds] => Array
+        (
+        )
+
+    [volumeIds] => Array
+        (
+        )
+
+    [snapshotIds] => Array
+        (
+        )
+
+    [features] => Array
+        (
+            [0] => monitoring
+        )
+
+    [backupsEnabled] => 
+    [privateNetworkingEnabled] => 
+    [ipv6Enabled] => 
+    [virtIOEnabled] => 
+    [nextBackupWindow] => DigitalOceanV2\Entity\NextBackupWindow Object
+        (
+            [start] => 
+            [end] => 
+        )
+
+)
